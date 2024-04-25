@@ -1,0 +1,108 @@
+body{
+    background: #FFFFFF;
+
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.headerimg{
+    text-align: center;
+    width: 100%;
+}
+.header{
+    text-align: center;
+    padding-top:100px;
+}
+.p{
+    font-size: 12px;
+    text-align: center;
+    color:#C6C6C6;
+  
+}
+.valyuta{
+    width: 65.06px;
+    height: 30px;
+    border-radius: 3px 0px 0px 3px;
+    border: 1px solid #E5E5E5;
+    cursor: pointer;
+    
+    
+}
+.group1{
+    display: flex;
+}
+.group2{
+    display: flex;
+}
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+}
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+input{
+    width: 259px;
+height: 102px;
+gap: 0px;
+border-radius: 3px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid #E5E5E5;
+margin-top: 10px;
+font-size: 36px;
+font-weight: 700;
+line-height: 42.19px;
+text-align: left;
+
+}
+.leftWorkspace {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C6C6C6;
+
+}
+.rightWorkspace{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C6C6C6;
+}
+button{
+    width: 65.06px;
+    height: 30px;
+    border-radius: 3px 0px 0px 3px;
+    border: 1px solid #E5E5E5;
+    cursor: pointer;
+}
+.group1 .valyutaCurrency{
+    background-color: #833AE0;
+    color: black;
+    
+}
+.group2 .valyutaCurrency{
+    background-color: #833AE0;
+    color: black;
+    
+}
