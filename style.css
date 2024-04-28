@@ -20,6 +20,10 @@ h1{
     color:#C6C6C6;
   
 }
+.paragraph{
+    
+    text-align: start;
+}
 .valyuta{
     width: 65.06px;
     height: 30px;

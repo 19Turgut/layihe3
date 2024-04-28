@@ -5,8 +5,8 @@ let body = document.querySelector('body');
 let Buttons = document.querySelectorAll('button');
 let input1=document.querySelector('.input1');
 let input2=document.querySelector('.input2');
-let leftWorkspace=document.querySelector(".leftWorkspace")
-let rightWorkspace=document.querySelector(".rightWorkspace")
+let leftText=document.querySelector(".leftWorkspace")
+let rightText=document.querySelector(".rightWorkspace")
 
 
 let convert=(option1,option2)=>{
@@ -23,24 +23,24 @@ let convert=(option1,option2)=>{
   if(option1===1){
     input2.value= Math.round(((option2 * value2) / value1)* 1000) / 1000 }
     else{
-     leftWorkspace.textContent=`1${group1.textContent} = ${Math.round(((option2 * value2) / value1) * 1000) / 1000} ${group2.textContent} `
-     rightWorkspace.textContent=`1${group2.textContent} = ${Math.round(((option2 * value1) / value2) * 1000) / 1000} ${group1.textContent} `
+        leftText.textContent=`1${group1.textContent} = ${Math.round(((option2 * value2) / value1) * 1000) / 1000} ${group2.textContent} `
+        rightText.textContent=`1${group2.textContent} = ${Math.round(((option2 * value1) / value2) * 1000) / 1000} ${group1.textContent} `
      }
 
 })
 }
-
+ 
 input1.value = "1";
 convert(0, 1);
 group1Button.forEach((e) => {
 e.addEventListener('click', ()=> {
         const selectButton1 = document.querySelector('.group1 .valyutaCurrency')
-        const selectButton2 = document.querySelector('.group2 .valyutaCurrency')
+        //const selectButton2 = document.querySelector('.group2 .valyutaCurrency')
         selectButton1.classList.remove('valyutaCurrency')
         e.classList.add('valyutaCurrency')
         convert(2,1)
     })
-    
+
 });
 group2Button.forEach((e) => {
     e.addEventListener('click', ()=> {
